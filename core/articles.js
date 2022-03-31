@@ -13,7 +13,7 @@ let wpsite = siteinfo.site;
     articles.forEach(
         (article) => {
             const articlesContainer = document.querySelector('#articles');
-            articlesContainer.innerHTML += <img src="${article.featured_image}" style="width:100%"/><p>No.<strong>${article.ID}</strong> ${article.title}</p><p>Published: ${article.date}, Modified: ${article.modified}</p>;
+            articlesContainer.innerHTML += `<img src="${article.featured_image}" style="width:100%"/><p>No.<strong>${article.ID}</strong> ${article.title}</p><p>Published: ${article.date}, Modified: ${article.modified}</p>`;
             // console.log(No.${article.ID} ${article.title});
         }
     )
