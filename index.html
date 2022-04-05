@@ -5,19 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>WPMyanmar: Under Development</title>
+    <link rel="stylesheet" href="css/blog-style.css">
+    <title></title>
+    <style>
+        rm {
+            color:red;
+        }
+        rm, rf {
+            color: green;
+            display: none;
+        }
+        strong {
+            color: blueviolet;
+        }
+    </style>
 </head>
 <body>
-
-
-	<div class="w3-container w3-sidebar w3-dark-grey w3-col w3-bar-block s12 m4 l3 w3-hide-small"></div>
-    
-	<div class="w3-row">
-        <div class="w3-col m4 l3 w3-hide-small"><p>20%</p></div>
-        <div id="articles" class="w3-col m8 l6 s12"></div>
-        <div class="w3-col m12 l3 s12"><p>20%</p></div>
+  <nav class="w3-top w3-hide-large w3-hide-middle w3-white">
+        <div class="w3-padding-small">
+            <a href="#" class="w3-bar-item"><img src="https://2.gravatar.com/avatar/e3874bb5acb3eb41e6588d1ecf9846d2?s=96&d=identicon&r=G" class="moblogo w3-round-xxlarge w3-card"/></a>
+            <a href="#" class="w3-bar-item w3-button site-name">Site Name</a>
+            <a href="#" class="w3-bar-item w3-right"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="2.4rem" height="2.4rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <line x1="4" y1="6" x2="20" y2="6"/> <line x1="4" y1="12" x2="20" y2="12"/> <line x1="4" y1="18" x2="20" y2="18"/></svg></a>
+        </div>
+    </nav>
+    <div class="header-divider w3-hide-large w3-hide-middle"></div>
+    <br/>
+  <div class="w3-container w3-sidebar w3-col w3-bar-block s12 m4 l3 w3-hide-small">
+        <h3 class="w3-bar-item">Menu</h3>
+        <a href="#" class="w3-bar-item w3-button">Link 0</a>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
     </div>
-
-    <script type="module" src="core/articles.js"></script>
+  <div class="w3-row">
+    <div class="w3-col m4 l3 w3-hide-small"><br/></div>
+    <div id="articles" class="w3-col m8 l6 s12">
+        <div id="w"></div>
+    </div>
+    <div class="w3-col m12 l3 s12">
+      <div class="w3-container">
+        <p>Hello World</p>
+      </div>
+    </div>
+  </div>
+    <!--script type="module" src="js/articles.js"></script-->
 </body>
 </html>
